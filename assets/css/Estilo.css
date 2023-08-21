@@ -1,0 +1,177 @@
+.carrito{
+    margin-top: auto;
+    height: 20px;
+    width: 20px;
+    filter: grayscale(100%);
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-carrito{
+    left: auto;
+}
+
+.body{
+    background-color: gray;
+}
+
+.sesion{
+    height: 25px;
+    width: 25px;
+}
+
+.signupFrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+form{
+    width: 380px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .5);
+}
+
+.title {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.inputContainer {
+    position: relative;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 17px;
+}
+
+.input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+}
+  
+::placeholder {
+    color: transparent;
+}
+
+.label {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    padding: 0 4px;
+    color: black;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+}
+
+.submitBtn {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.submitBtn:hover {
+    background-color: gray;
+    transform: translateY(-2px);
+}
+
+.input:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.input:focus {
+    border: 2px solid black;
+}
+
+.input:not(:placeholder-shown)+ .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.container-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 10px;
+}
+
+.prodtitulo{
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.añadir {
+    text-align: center;
+    margin-top: 30px ;
+}
+
+
+.titulo{
+    margin-top: 60px;
+    text-align: center;
+    color: black;
+    font-family:fantasy;
+
+}
+
+.jugo{
+    margin-top: 20;
+    height: 20px;
+    width: 20px;
+    filter: grayscale(100%);
+}
+
+.prod-carrito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 10px;
+}
+
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 10px;
+}
+
+
+
